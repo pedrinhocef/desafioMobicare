@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">DesafioMobicare</string>
+    <string name="pacotes">Pacote para:</string>
+    <string name="price_pacote">A partir de :</string>
+    <string name="dias">Dias</string>
+    <string name="buy">Comprar</string>
+    <string name="semConexao">Sem conexão com a internet!</string>
+    <string name="tryAgain"> Tentar Novamente </string>
+    <string name="desc_pacotes">Descrição :</string>
+</resources>
