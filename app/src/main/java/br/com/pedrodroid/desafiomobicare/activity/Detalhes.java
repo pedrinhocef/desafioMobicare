@@ -15,9 +15,6 @@ import com.squareup.picasso.Picasso;
 import br.com.pedrodroid.desafiomobicare.R;
 import br.com.pedrodroid.desafiomobicare.modelo.Pacote;
 
-/**
- * Created by pedrodroid on 08/07/17.
- */
 
 public class Detalhes extends AppCompatActivity {
 
@@ -30,11 +27,11 @@ public class Detalhes extends AppCompatActivity {
             getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         }
 
-        Button btnBuy = (Button) findViewById(R.id.detalhes_btn_buy);
-        ImageView local = (ImageView) findViewById(R.id.detalhes_image_local);
-        TextView name = (TextView) findViewById(R.id.detalhes_nome_pacote);
-        TextView price = (TextView) findViewById(R.id.detalhes_price_pacote);
-        TextView desc = (TextView) findViewById(R.id.detalhes_desc_pacote);
+        Button btnBuy = findViewById(R.id.detalhes_btn_buy);
+        ImageView local = findViewById(R.id.detalhes_image_local);
+        TextView name = findViewById(R.id.detalhes_nome_pacote);
+        TextView price = findViewById(R.id.detalhes_price_pacote);
+        TextView desc = findViewById(R.id.detalhes_desc_pacote);
 
         final Intent intent = getIntent();
         final Pacote pacote = (Pacote) intent.getSerializableExtra("pacotes");

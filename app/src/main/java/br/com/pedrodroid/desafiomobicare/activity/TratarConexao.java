@@ -11,10 +11,6 @@ import android.widget.Toast;
 
 import br.com.pedrodroid.desafiomobicare.R;
 
-/**
- * Created by pedrodroid on 08/07/17.
- */
-
 public class TratarConexao extends AppCompatActivity {
 
     @Override

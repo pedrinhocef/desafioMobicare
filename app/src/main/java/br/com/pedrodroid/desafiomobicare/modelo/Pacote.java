@@ -2,10 +2,6 @@ package br.com.pedrodroid.desafiomobicare.modelo;
 
 import java.io.Serializable;
 
-/**
- * Created by pedrodroid on 08/07/17.
- */
-
 public class Pacote implements Serializable {
 
     private String name;

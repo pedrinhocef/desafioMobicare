@@ -37,11 +37,11 @@ public class MainActivity extends AppCompatActivity {
 
         tratarConexao = new Intent(this, TratarConexao.class);
 
-        refresh = (SwipeRefreshLayout) findViewById(R.id.refresh);
+        refresh = findViewById(R.id.refresh);
         refresh.setOnRefreshListener(OnRefreshListener());
 
 
-        listView = (ListView) findViewById(R.id.lv_pacotes);
+        listView = findViewById(R.id.lv_pacotes);
         listView.setAdapter(mAdapter);
 
 

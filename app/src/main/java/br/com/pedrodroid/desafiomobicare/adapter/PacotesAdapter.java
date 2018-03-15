@@ -15,11 +15,6 @@ import java.util.List;
 import br.com.pedrodroid.desafiomobicare.R;
 import br.com.pedrodroid.desafiomobicare.modelo.Pacote;
 
-
-/**
- * Created by pedrodroid on 08/07/17.
- */
-
 public class PacotesAdapter extends BaseAdapter {
     private List<Pacote> pacotes;
     private Context context;

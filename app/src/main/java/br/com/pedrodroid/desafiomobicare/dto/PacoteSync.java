@@ -6,9 +6,6 @@ import java.util.ArrayList;
 
 import br.com.pedrodroid.desafiomobicare.modelo.Pacote;
 
-/**
- * Created by pedrodroid on 08/07/17.
- */
 
 public class PacoteSync implements Serializable{
 
